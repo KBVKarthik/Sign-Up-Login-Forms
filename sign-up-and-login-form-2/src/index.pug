@@ -1,0 +1,29 @@
+.login-container
+  .clearfix
+    .col-left
+      h4.text-uppercase Don't have an account ?
+      p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda perferendis quasi harum laboriosam nesciunt alias natus tempore saepe quisquam voluptas?
+      label(for="register").btn.btn-default.btn-outline Sign up
+      input(type="radio", name="choose-login", checked)#register.hidden
+    .col-right
+      h4.text-uppercase Have an account ?
+      p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, qui!
+      label(for="login").btn.btn-default.btn-outline Login
+      input(type="radio", name="choose-login")#login.hidden
+      .background-float
+        form.login-form
+          h3.text-primary.text-uppercase Login
+          .form-group
+            input#exampleInputEmail1.form-control(type="email", placeholder="Email")
+          .form-group
+            input#exampleInputPassword1.form-control(type="password", placeholder="Password")
+          button.btn.btn-primary(type="submit") Login
+        form.register-form
+          h3.text-primary.text-uppercase Sign Up
+          .form-group
+            input#exampleInputEmail1.form-control(type="text", placeholder="Name")
+          .form-group
+            input#exampleInputEmail1.form-control(type="email", placeholder="Email")
+          .form-group
+            input#exampleInputPassword1.form-control(type="password", placeholder="Password")
+          button.btn.btn-primary(type="submit") Sign Up

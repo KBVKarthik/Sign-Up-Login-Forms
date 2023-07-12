@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Sign up and login form CSS</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+<link rel='stylesheet' href='//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="login-container">
+  <div class="clearfix">
+    <div class="col-left">
+      <h4 class="text-uppercase">Don't have an account ?</h4>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda perferendis quasi harum laboriosam nesciunt alias natus tempore saepe quisquam voluptas?</p>
+      <label class="btn btn-default btn-outline" for="register">Sign up</label>
+      <input class="hidden" type="radio" name="choose-login" checked="checked" id="register"/>
+    </div>
+    <div class="col-right">
+      <h4 class="text-uppercase">Have an account ?</h4>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, qui!</p>
+      <label class="btn btn-default btn-outline" for="login">Login</label>
+      <input class="hidden" type="radio" name="choose-login" id="login"/>
+      <div class="background-float">
+        <form class="login-form">
+          <h3 class="text-primary text-uppercase">Login</h3>
+          <div class="form-group">
+            <input class="form-control" id="exampleInputEmail1" type="email" placeholder="Email"/>
+          </div>
+          <div class="form-group">
+            <input class="form-control" id="exampleInputPassword1" type="password" placeholder="Password"/>
+          </div>
+          <button class="btn btn-primary" type="submit">Login</button>
+        </form>
+        <form class="register-form">
+          <h3 class="text-primary text-uppercase">Sign Up</h3>
+          <div class="form-group">
+            <input class="form-control" id="exampleInputEmail1" type="text" placeholder="Name"/>
+          </div>
+          <div class="form-group">
+            <input class="form-control" id="exampleInputEmail1" type="email" placeholder="Email"/>
+          </div>
+          <div class="form-group">
+            <input class="form-control" id="exampleInputPassword1" type="password" placeholder="Password"/>
+          </div>
+          <button class="btn btn-primary" type="submit">Sign Up</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- partial -->
+  
+</body>
+</html>
